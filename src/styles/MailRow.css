@@ -1,0 +1,153 @@
+.mailrow {
+    display: flex;
+    /* background-color: blanchedalmond; */
+    /* border-top: 1px solid lightgray; */
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    z-index: 999;
+    height: 40px;
+}
+.mailrow__readed {
+    background-color: #f2f5f5cc;
+}
+.mailrow:hover {
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.24);
+}
+
+.mailrow__options {
+    display: flex;
+    align-items: center;
+}
+.mailrow__options > input {
+    height: 16px;
+    width: 16px;
+    margin: 5px 5px;
+    margin-left: 10px;
+    /* -webkit-appearance: none; */
+    /* -moz-appearance: none; */
+    /* -o-appearance: none; */
+    /* appearance: none; */
+    /* border: 5px solid #34495e; */
+    /* border-radius: 4px; */
+    /* outline: none; */
+    /* transition-duration: 0.3s; */
+    /* background-color: #41b883; */
+    cursor: pointer;
+}
+
+.mailrow__options span {
+    color: lightgray;
+    padding: 5px 5px;
+}
+/* .mailrow > p { */
+/* display: flex; */
+/* margin-top: 10px; */
+/* align-items: center; */
+/* overflow: hidden; */
+/* } */
+.mailrow__sender {
+    flex: 0.3;
+
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    color: #202124;
+    /* max-width: 250px; */
+    /* overflow: hidden; */
+
+    /* background-color: aqua; */
+}
+.mailrow__sender > p {
+    font-size: 14px;
+    color: #47474a;
+    flex: 1;
+    max-width: 225px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 0.3px;
+
+    /* background-color: #47474a; */
+}
+
+.mailrow__content1 {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    min-width: 220px;
+    padding-left: 5px;
+    /* background-color: khaki; */
+}
+.mailrow__content1 > p {
+    font-size: 14px;
+    color: #47474a;
+    flex: 1;
+    max-width: 450px;
+    /* background-color: #8d8f93; */
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #8d8f93;
+}
+.mailrow__subject {
+    font-size: 14px;
+    color: #363739;
+}
+
+.mailrow__content {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    max-width: 640px;
+    /* width: 100%; */
+    /* overflow: hidden;     */
+    background-color: goldenrod;
+    font-size: 14px;
+
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mailrow__content > p {
+    max-width: 640px;
+    flex: 1;
+    width: 100%;
+    /* max-width: 650px; */
+    background-color: lightgrey;
+    color: #363739;
+
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 0.3px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mailrow__message {
+    color: #8d8f93;
+    letter-spacing: 0.3px;
+}
+.mailrow__time {
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #8d8f93;
+
+    padding: 5px;
+    padding-right: 10px;
+    font-size: 13px;
+    max-width: 180px;
+}
+.golden {
+    /* color: gold; */
+    color: #f8cb4d !important;
+    /* background-color: aqua; */
+}

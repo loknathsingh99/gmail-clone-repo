@@ -1,0 +1,40 @@
+.nav {
+    width: 187px;
+    width: 250px;
+    height: 528px;
+    background-color: pink;
+}
+.nav__container {
+    display: flex;
+    flex-direction: column;
+}
+.nav__items {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px 5px 20px;
+    padding: 0px 5px 0px 5px;
+    color: #353639;
+}
+.nav__compose > img {
+    width: 26px;
+    object-fit: contain;
+    margin: 0 10px;
+}
+.nav__compose {
+    width: 130px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px gray;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    /* justify-content: space-between; */
+    color: #3c4043;
+    color: #353639;
+}
+.nav__icons {
+    font-size: 18px;
+    margin: 0 10px 0 0;
+    color: #5f6368;
+}

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap");
+
+.header {
+    width: 100%;
+    height: 70px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.header__left > img {
+    width: 35px;
+    object-fit: contain;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    /* background-color: antiquewhite; */
+}
+.header__left span {
+    /* background-color: antiquewhite; */
+    padding: 10px;
+    color: #5f6368;
+    cursor: pointer;
+}
+.header__left p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.header__middle input {
+    /* flex: 1; */
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 7px;
+    font-size: medium;
+    background: transparent;
+}
+.header__middle span {
+    color: #5f6368;
+    cursor: pointer;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    /* background-color: #737373; */
+}
+.header__right span {
+    padding: 10px;
+    color: #5f6368;
+    cursor: pointer;
+
+    /* background-color: beige; */
+}
+
+/* previous code */
+.header__container {
+    padding: 3px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__toogleMenu {
+    /* flex: 0.09; */
+    /* text-align: center; */
+    /* border: 1px solid grey; */
+    font-size: 25px;
+    /* margin: 2px 0; */
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #5f6368;
+}
+.header__icon {
+    /* border: 1px solid grey; */
+    /* flex: 0.1; */
+    width: 32px;
+    margin-left: 2px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.header__gmailName {
+    /* border: 1px solid grey; */
+    /* flex: 0.09; */
+    margin: 0 10px 0 5px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #737373;
+}
+.header__searchbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header__profile,
+.header__apps,
+.header__setting,
+.header__support {
+    /* flex: 0.05; */
+    /* border: 1px solid grey; */
+    color: #5f6368;
+    font-size: 23px;
+    margin: 0 10px;
+}
+.header__profile {
+    cursor: pointer;
+}
+.header__searchbar > input {
+    /* flex: 0.75; */
+    flex: 1;
+    height: 48px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    max-width: 720px;
+}
+.tooltip__profile {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+}
+.tooltip__profile .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    max-width: 160px;
+    background-color: gray;
+    color: #fff;
+    text-align: right;
+    border-radius: 6px;
+    padding: 5px 5px;
+    top: 106%;
+    left: -110%;
+    font-size: 13px;
+    font-weight: 600;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000;
+}
+
+.tooltip__profile:hover .tooltiptext {
+    visibility: visible;
+}

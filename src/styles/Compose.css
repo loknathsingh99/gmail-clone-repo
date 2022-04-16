@@ -1,0 +1,94 @@
+.compose {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    background-color: white;
+    min-width: 500px;
+    /* height: auto; */
+    /* min-height: 450px; */
+    /* border: 1px solid black; */
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    /* padding: 10px; */
+    z-index: 999;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.compose__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+.compose__headerRight > span {
+    font-size: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.compose .compose__header .compose__headerRight > span {
+    transition: 0.2s linear 0s;
+}
+
+.compose__body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+/* .compose__to { */
+/* flex: 1; */
+/* background-color: antiquewhite; */
+/* display: flex; */
+/* } */
+.compose__body > div {
+    display: flex;
+}
+.compose__body > div > input,
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 2px 10px;
+}
+.compose__body > div > input {
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+    /* margin: 2px 50px; */
+}
+.compose__content > textarea {
+    margin-top: 5px;
+    height: auto;
+}
+
+.compose__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+.compose__footerLeft {
+    display: flex;
+    align-items: center;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+.compose__footerLeft > button {
+    background: transparent;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 2px 10px;
+    color: white;
+    border-right: 1px solid rgb(77, 73, 73);
+    cursor: pointer;
+    letter-spacing: 1px;
+}

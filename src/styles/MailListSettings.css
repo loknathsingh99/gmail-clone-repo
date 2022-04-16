@@ -1,0 +1,77 @@
+.mailListSettings {
+    position: sticky;
+    top: 0;
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+    /* width: 100%; */
+    background-color: white;
+    color: grey;
+    padding: 8px;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+}
+.mailListSettings__left {
+    display: flex;
+    align-items: center;
+    /* padding: 5px; */
+}
+.mailListSettings__right {
+    display: flex;
+    align-items: center;
+}
+.mailListSettings__left input {
+    height: 17px;
+    width: 17px;
+    /* background-color: aquamarine; */
+    margin-left: 10px;
+}
+.mailListSettings .material-icons {
+    margin: 5px 8px;
+    cursor: pointer;
+}
+.notspam__button {
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    padding: 1px 5px;
+    margin: 5px 8px;
+    cursor: pointer;
+}
+.notspam__button:hover {
+    background-color: whitesmoke;
+    /* cursor: pointer; */
+}
+
+.mailListSettings .material-icons:hover {
+    background-color: whitesmoke;
+}
+
+/* Tooltip code is written in the App.css */
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: gray;
+
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    top: 106%;
+    left: -40%;
+    font-size: 13px;
+    font-weight: 600;
+
+    Position the tooltip
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+} */

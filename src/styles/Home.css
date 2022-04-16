@@ -1,0 +1,13 @@
+.home {
+    /* background-color: rgb(247, 218, 247); */
+    height: 100%;
+    /* display: flex; */
+    /* width: 100%; */
+    /* overflow: wrap; */
+}
+
+.home__container {
+    display: flex;
+    height: 90%;
+    /* background-color: rgb(167, 167, 255); */
+}

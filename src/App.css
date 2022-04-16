@@ -1,0 +1,41 @@
+.app {
+    /* background-color: bisque; */
+    height: 100vh;
+    overflow-y: hidden;
+    /* position: relative; */
+    /* background: url("https://picsum.photos/1200"); */
+}
+
+.caution {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 2px;
+    border-bottom: 1px solid crimson;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    /* width: 120px; */
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    top: 106%;
+    left: -40%;
+    font-size: 13px;
+    font-weight: 600;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
